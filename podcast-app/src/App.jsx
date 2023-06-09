@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from './components/Navbar'
 import { useState } from 'react'
+
 import './App.css'
 
 
@@ -10,7 +10,8 @@ function App() {
   
   return (
     <>
-    <Navbar />
+     
+      <h1>Lauryn Hill</h1>
     </>
   )
 }
