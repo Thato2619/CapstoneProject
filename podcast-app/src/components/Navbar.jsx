@@ -9,7 +9,12 @@ export default function Navbar(){
         <nav>
             <img />
             <h3 className="nav-logo">Unplugged</h3>
-            <ul className=""></ul>
+            <ul className="">
+                <li>Top Rated</li>
+                <li></li>
+                <li>All Categories</li>
+                <li>Thee Faves</li>
+            </ul>
         </nav>
     )
 }
