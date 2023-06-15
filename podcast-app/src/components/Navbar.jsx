@@ -9,13 +9,13 @@ import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
+
 import MenuItem from '@mui/material/MenuItem';
 import HeadsetOutlinedIcon from '@mui/icons-material/HeadsetOutlined';
-import { color } from '@mui/system';
+
 
 const pages = ['Discover', 'Browse', 'The Faves'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -90,7 +90,9 @@ function ResponsiveAppBar() {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+                  <Typography textAlign="center">
+                      {page}
+                  </Typography>
                 </MenuItem>
               ))}
             </Menu>
